@@ -1,0 +1,74 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9980FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_manager{
+    width: 400px;
+    height: 560px;
+    background-color: #5758BB;
+    border-radius: 10px;
+    padding: 25px;
+}
+.btn-ia{
+    background-color: #9980FA;
+    border: 1px solid #9980FA;
+    color: white;
+
+}
+.btn-ia:hover{
+    background-color: transparent;
+    color: white;
+}
+#showContactContainer{
+    height: 50%;
+    margin-top: 20px;
+    overflow: auto;
+}
+.contactBox{
+    display: flex;   
+    color: white;
+    border: 2px solid #9980FA;
+    padding: 10px ;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.contactInfo{
+    display: flex;
+    align-items: center;
+}
+.contactInfo > i{
+    margin-right: 15px;
+    font-size: 50px;
+    color: #9980FA;
+}
+.updel i{
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #9980FA;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5758BB;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9980FA;
+  } 

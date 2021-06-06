@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="contact_manager">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center py-2 text-white">Add Contact Info</h2>
+                </div>
+                <form onsubmit="submitContact(event)" class="col-12 text-center">
+                    <input required min="5" max="11" id="name" type="text" placeholder="Enter Name" class="form-control my-3">
+                    <input required   id="number" type="number" placeholder="Enter Number" class="form-control my-3">
+                    <button type="submit" class="btn btn-ia">Add Contact</button>
+                </form>
+            </div>
+
+            <div class="row" id="showContactContainer">
+
+                <!-- <div class="col-12 my-2 contactBox">
+                    <div class="contactInfo">
+                        <i class="fa fa-user"></i>
+                        <div >
+                            <h5>iA Coder</h5>
+                            <h6>018736464576</h6>
+                        </div>
+                    </div>
+                    <div class="updel">
+                        <i class="fa fa-trash" id="delete"></i>
+                        <i class="fa fa-refresh" id="update"></i>
+                    </div>
+                </div>
+
+            </div> -->
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
